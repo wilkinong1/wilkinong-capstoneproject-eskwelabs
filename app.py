@@ -4,6 +4,7 @@ import app_functions as funcs
 from datetime import datetime, timedelta
 from streamlit_shap import st_shap
 import pandas as pd
+import json
 
 
 st.set_page_config(page_title='Capstone Project App', page_icon=None, layout="wide", initial_sidebar_state='collapsed')

@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import ast
 from datetime import datetime, timedelta
+import json
 
 sample_data = pd.read_csv('./app_sample_data.csv')
 results = pd.read_csv('./results_for_season.csv')

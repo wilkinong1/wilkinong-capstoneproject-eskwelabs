@@ -20,8 +20,6 @@ upcoming_tab, current_results_tab, global_importance_tab, project_overview = st.
 
 dates = sorted(list(set(st.session_state['filtered_data'][0]['GAME_DATE'])), reverse=True)
 
-
-
 def main():
     with current_results_tab:
         st.title('2023-2024 Season Results')

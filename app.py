@@ -5,7 +5,6 @@ from datetime import datetime, timedelta
 from streamlit_shap import st_shap
 import pandas as pd
 
-
 st.set_page_config(page_title='Capstone Project App', page_icon=None, layout="wide", initial_sidebar_state='collapsed')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 

@@ -11,6 +11,7 @@ upcoming = pd.read_csv('./app_upcoming.csv')
 team_logos = {}
 
 
+
 underdog_cover = pd.DataFrame({
     'Underdog Covers': [len(sample_data[(sample_data['hcp_tipoff'] > 0) & (sample_data['home_cover_spread'] == 1)]) + len(sample_data[(sample_data['hcp_tipoff'] < 0) & (sample_data['home_cover_spread'] == 0)])],
     'Favorite Covers': [len(sample_data[(sample_data['hcp_tipoff'] < 0) & (sample_data['home_cover_spread'] == 1)]) + len(sample_data[(sample_data['hcp_tipoff'] > 0) & (sample_data['home_cover_spread'] == 0)])]
